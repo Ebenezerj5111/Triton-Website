@@ -1,0 +1,807 @@
+/* Default code starts here */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    /* text-wrap: pretty; */
+}
+
+body {
+    /* line-height: 1.5; */
+    /* -webkit-font-smoothing: antialiased; */
+    /* font-family: ; */
+    /* font-optical-sizing: auto; */
+    /* background-color: aqua; */
+}
+
+html {
+    /* font-size: 62.5%; */
+    /* overflow-x: hidden; */
+    /* scroll-behavior: smooth; */
+    /* scroll-padding-top: 0rem; */
+}
+
+::-webkit-scrollbar {
+    /* width: 1rem; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    /* text-wrap: balance; */
+}
+
+input,
+textarea,
+button {
+    /* font-family: inherit; */
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    /* display: block; */
+    /* max-width: 100%; */
+}
+
+:root {}
+
+.align {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 3rem;
+}
+
+.componentSpacing {
+    padding: 3rem 0;
+}
+
+.minipad {
+    padding: 1rem;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* :::PARENT CONTAINER code starts here */
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+}
+
+/* :::PARENT CONTAINER code ends here */
+
+.dflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dflexbtw {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dflexaround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dflex-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* text-align: left; */
+}
+
+.dflex-col-start {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* text-align: left; */
+}
+
+/* :::HEADER code starts here */
+
+/* Navbar code */
+
+
+.navbar {
+    position: fixed !important;
+    width: 100%;
+    z-index: 100;
+    background-color: #ffffff;
+}
+
+.navbar-nav {
+    /* background-color: aqua !important; */
+    width: 90% !important;
+}
+
+.nav-item {
+    /* background-color: aquamarine !important; */
+}
+
+.nav-link {
+    color: rgb(0, 0, 0) !important;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Montserrat", "Macondo", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Navbar code */
+/* Herosection code */
+.heroContainer {
+    /* background-color: aqua; */
+}
+
+.heroSection {
+    /* background-color: aquamarine; */
+}
+
+.heroBody {
+    /* background-color: blue; */
+    margin-top: 3rem !important;
+}
+
+.heroContent {
+    /* background-color: brown; */
+    padding: 50px 0 0 0;
+}
+
+.heroContent h1 {
+    color: rgb(95, 197, 255);
+    font-family: "Montserrat";
+    font-size: 34px;
+    font-weight: 600;
+    padding: 0 100px 0 0;
+}
+
+.heroContent p {
+    color: rgb(1, 6, 40);
+    font-size: 18px;
+    font-family: "Montserrat";
+    line-height: 24px;
+    padding: 10px 130px 7px 0;
+    text-align: justify;
+}
+
+.heroContent button {
+    background: #e8fa7e;
+    color: #000000;
+    font-size: 18px;
+    font-family: "Montserrat";
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, .35);
+}
+
+.heroImage {
+    /* background-color: blueviolet; */
+}
+
+.heroImage img {
+    width: 100%;
+}
+
+/* Herosection code */
+
+/* :::HEADER code ends here */
+
+/* :::MAIN code starts here */
+/*Discover  code */
+.discoverContainer {
+    /* background-color: aqua; */
+}
+
+.discoverSection {
+    /* background-color: aquamarine; */
+}
+
+.discoverBody {
+    /* background-color: blue; */
+}
+
+.discoverContent {
+    /* background-color: blueviolet; */
+}
+
+.discoverContent h1 {
+    color: #000000;
+    font-family: "Montserrat";
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 0 210px;
+    font-weight: 550;
+}
+
+.discoverContent p {
+    color: #000000;
+    font-family: "Montserrat";
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    padding: 15px 0;
+}
+
+/*Discover  code */
+
+/*Client code*/
+
+.clientContainer {
+    /* background-color: aqua; */
+}
+
+.clientSection {
+    /* background-color: aquamarine; */
+}
+
+.clientBody {
+    /* background-color: blue; */
+}
+
+.clientContent {
+    background-image: url(./assets/images/discoverbgimage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 5px 0;
+}
+
+.clientContent h2 {
+    color: #000000;
+    font-size: 24px;
+    font-family: "Montserrat", "Macondo", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+/*Client code*/
+
+/*Expertise code*/
+.expertiseContainer {
+    /* background-color: aqua; */
+}
+
+.expertiseSection {
+    /* background-color: aquamarine; */
+}
+
+.expertiseBody {
+    /* background-color: blue; */
+}
+
+.expertiseContent {
+    /* background-color: blueviolet; */
+}
+
+.expertiseContent h1 {
+    color: #000000;
+    font-size: 32px;
+    font-family: "Montserrat", "Macondo", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+
+.expertiseContent p {
+    color: #000000;
+    font-size: 15px;
+    font-family: "Montserrat";
+    line-height: 20px;
+    /* text-align: justify; */
+    padding: 0 30px 0 0;
+}
+
+.expertiseContentImage {
+    /* background-color: brown; */
+    padding: 10px 0 0 0;
+    gap: 1rem;
+}
+
+.expertiseContentImage .expertiseimage1 {
+    width: 40%;
+}
+
+.expertiseContentImage .expertiseimage2 {
+    width: 50%;
+}
+
+.expertiseImage {
+    /* background-color: cadetblue; */
+}
+
+.expertiseImage img {
+    width: 100%;
+}
+
+/*Expertise code*/
+/* :::MAIN  code ends here */
+
+/* :::FOOTER code starts here */
+/* Footer code */
+.footerContainer {
+    background-color: #000318;
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+.footerSection {
+    /* background-color: aquamarine; */
+}
+
+.footerBody {
+    /* background-color: blue; */
+}
+
+.footerImage {
+    /* background-color: blueviolet; */
+}
+
+.footerImage img {
+    width: 100px;
+}
+
+.footerContent {
+    /* background-color: brown; */
+}
+
+.footerContent h4 {
+    color: rgb(232, 250, 126);
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.footerContent li {
+    list-style: none;
+}
+
+.footerContent a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.9;
+    font-family: "Montserrat", "Macondo", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footerContent li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.footerContent i {
+    color: #ffffff;
+    font-size: 30px;
+    width: 20%;
+}
+
+.footerContent p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Montserrat", "Macondo", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contacticon {
+    font-size: 20px !important;
+}
+
+.footerContent button {
+    background-color: #e8fa7e;
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding: 10px 50px;
+}
+
+.footerCopyContainer {
+    background-color: #101010;
+}
+
+.footerCopySection {
+    /* background-color: aquamarine; */
+}
+
+.footerCopyBody {
+    /* background-color: blue; */
+}
+
+.footerCopy {
+    /* background-color: blueviolet; */
+}
+
+.footerCopy p {
+    color: rgb(250, 235, 215);
+    font-size: 16px;
+    font-family: "Montserrat", "Macondo", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+
+/* Footer code */
+/* :::FOOTER code ends here */
+
+
+
+/* ::: RESPONSIVE DESIGN DEVICES SIZES ::: */
+
+/* for Responsive Targets the Row code(display:grid) */
+
+/* small devices (landscape phones, upto 576px and below) */
+@media(width <=576px) {
+
+
+    /*  */
+    .heroContainer {
+        padding: 3rem 1rem;
+    }
+
+    .heroContent h1 {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .heroContent p {
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .heroContent button {
+        font-size: 14px;
+    }
+
+    /*  */
+
+    .discoverContainer {
+        padding: 3rem 1rem;
+    }
+
+    .discoverContent h1 {
+        font-size: 20px;
+        padding: 0 50px;
+    }
+
+    .discoverContent p {
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .discoverImage img {
+        width: 100%;
+    }
+
+    /*  */
+
+    .clientContent h2 {
+        font-size: 10px;
+    }
+
+    /*  */
+
+    .expertiseContainer {
+        padding: 3rem 1rem;
+    }
+
+    .expertiseContent h1 {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .expertiseContent p {
+        font-size: 12px;
+        padding: 0;
+    }
+
+    /*  */
+
+    .footerContainer {
+        background-color: #000318;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+
+    .footerContent {
+        padding-bottom: 2rem;
+    }
+
+    .footerContent i {
+        font-size: 20px;
+        width: 10%;
+    }
+
+}
+
+/* medium devices (tablets, upto 768px and above) */
+@media(width >=577px) and (width <=768px) {
+
+    /*  */
+    .heroContainer {
+        padding: 3rem 1rem;
+    }
+
+    .heroContent h1 {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .heroContent p {
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .heroContent button {
+        font-size: 14px;
+    }
+
+    /*  */
+
+    .discoverContainer {
+        padding: 3rem 1rem;
+    }
+
+    .discoverContent h1 {
+        font-size: 20px;
+        padding: 0 50px;
+    }
+
+    .discoverContent p {
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .discoverImage img {
+        width: 100%;
+    }
+
+    /*  */
+
+    .clientContent h2 {
+        font-size: 10px;
+    }
+
+    /*  */
+
+    .expertiseContainer {
+        padding: 3rem 1rem;
+    }
+
+    .expertiseContent h1 {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .expertiseContent p {
+        font-size: 12px;
+        padding: 0;
+    }
+
+    /*  */
+
+    .footerContainer {
+        padding: 2rem 2rem 2rem 2rem;
+    }
+
+    .footerContent {
+        padding-bottom: 2rem;
+    }
+
+    .footerContent i {
+        width: 10%;
+    }
+
+}
+
+
+/* large devices (laptops, upto 992px and above) */
+@media(width >=769px) and (width <=992px) {
+
+    /*  */
+    .heroContent h1 {
+        font-size: 22px;
+        padding: 0;
+    }
+
+    .heroContent p {
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .heroContent button {
+        font-size: 14px;
+    }
+
+    /*  */
+
+    .discoverContent h1 {
+        font-size: 30px;
+        padding: 0 100px;
+    }
+
+    .discoverContent p {
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .discoverImage img {
+        width: 100%;
+    }
+
+    /*  */
+
+    .clientContent h2 {
+        font-size: 15px;
+    }
+
+    /*  */
+
+    .expertiseContent h1 {
+        text-align: left;
+        font-size: 24px;
+    }
+
+    .expertiseContent p {
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .expertiseImage {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    /*  */
+
+    .footerContent {
+        padding-bottom: 2rem;
+    }
+
+    .footerContent i {
+        width: 20%;
+    }
+}
+
+/* x-large devices (tablets, upto 768px and above) */
+@media(width >=993px) and (width <=1200px) {
+
+    /*  */
+    .heroContainer {
+        padding: 1rem 2rem;
+    }
+
+    .heroContent h1 {
+        font-size: 34px;
+        padding: 0;
+    }
+
+    .heroContent p {
+        font-size: 18px;
+        padding: 0 50px 0 0;
+    }
+
+    .heroContent button {
+        font-size: 14px;
+    }
+
+    /*  */
+
+    .discoverContent h1 {
+        font-size: 30px;
+        padding: 0 150px;
+    }
+
+    .discoverContent p {
+        font-size: 18px;
+        padding: 0;
+    }
+
+    .discoverImage img {
+        width: 100%;
+    }
+
+    /*  */
+
+    .clientContent h2 {
+        font-size: 24px;
+    }
+
+    /*  */
+
+    .expertiseContent h1 {
+        text-align: left;
+        font-size: 32px;
+    }
+
+    .expertiseContent p {
+        font-size: 15px;
+        padding: 0;
+    }
+
+    /*  */
+
+    .footerContainer {
+        padding: 1rem 1rem;
+    }
+
+    .footerContent {
+        padding-bottom: 2rem;
+    }
+
+    .footerContent h4 {
+        font-size: 20px;
+    }
+
+    .footerContent a {
+        font-size: 11px;
+    }
+
+    .footerContent p {
+        font-size: 11px;
+    }
+
+    .footerContent i {
+        font-size: 15px;
+        width: 15%;
+    }
+
+    .footerContent button {
+        font-size: 11px;
+    }
+}
+
+/* xx-large devices (large desktops, upto 1200px and above) */
+/* @media(width >=1200px) {} */
+
+/*  */
+
+@media(width >=320px) and (width <=425px) {
+    .discoverContent h1 {
+        padding: 0;
+    }
+}
